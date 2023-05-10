@@ -4,7 +4,12 @@
         return $a + $b;
     }
 
-    function division(int $a, int $b): int
+    function div(int $a, int $b): int
     {
-        return $a / $b;
+        if ($b !== 0)
+        {
+            return $a / $b;
+        }
+
+        return 0;
     }
