@@ -13,3 +13,8 @@
 
         return 0;
     }
+
+    function main()
+    {
+        echo 'Hello GitHub';
+    }
